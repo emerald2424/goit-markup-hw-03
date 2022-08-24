@@ -64,14 +64,12 @@ a {
 }
 .header-logo {
     margin-right: 97px;
+}
+.header-logo-color {
+    
     color: #000000;
 }
-.footer-logo {
-    margin-bottom: 20px;
-}
-.footer-logo-color {
-    color: #FFFFFF;
-}
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -253,8 +251,8 @@ a {
 }
 
 .team-description {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
     line-height: 1.19;
     text-align: center;
@@ -277,6 +275,13 @@ a {
     font-size: 14px;
     line-height: 1.71;
 }
+.footer-logo {
+    margin-bottom: 20px;
+}
+.footer-logo-color {
+    color: #FFFFFF;
+}
+
 .address {
     
     margin-bottom: 9px;
@@ -363,6 +368,7 @@ a {
     
 } 
 .project-title {
+    margin-bottom: 4px;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
